@@ -1,0 +1,81 @@
+var x = 10;
+var y = 10.56;
+var z = "10 10";
+var r = "10.56";
+var s = "10";
+var t = "10.56 10.56";
+var u = "year 2025";
+//
+console.log("Number");
+var n = Number(s);
+console.log(n);
+n = Number(z);
+console.log(n);
+n = Number(r);
+console.log(n);
+//
+console.log("parseInt");
+n = parseInt(s);
+console.log(n);
+n = parseInt(r);
+console.log(n);
+n = parseInt(z);
+console.log(n);
+n = parseInt(u);
+console.log(n);
+//
+console.log("parseFloat");
+n = parseFloat(s);
+console.log(n);
+n = parseFloat(r);
+console.log(n);
+n = parseFloat(z);
+console.log(n);
+n = parseFloat(u);
+console.log(n);
+//
+console.log("Number.isFinite");
+n = Number.isFinite(x);
+console.log(n);
+n = Number.isFinite(y);
+console.log(n);
+n = Number.isFinite(z);
+console.log(n);
+n = Number.isFinite(r);
+console.log(n);
+n = Number.isFinite(s);
+console.log(n);
+n = Number.isFinite(t);
+console.log(n);
+n = Number.isFinite(u);
+console.log(n);
+//
+console.log("Number.isInteger");
+n = Number.isInteger(x);
+console.log(n);
+n = Number.isInteger(y);
+console.log(n);
+n = Number.isInteger(z);
+console.log(n);
+n = Number.isInteger(r);
+console.log(n);
+n = Number.isInteger(s);
+console.log(n);
+n = Number.isInteger(t);
+console.log(n);
+n = Number.isInteger(u);
+console.log(n);
+//
+console.log("toFixed");
+x = 45.5678;
+n = x.toFixed(2);
+console.log(n);
+n = x.toFixed(3);
+console.log(n);
+//
+console.log("toPrecision");
+x = 45.5678;
+n = x.toPrecision(2);
+console.log(n);
+n = x.toPrecision(3);
+console.log(n);

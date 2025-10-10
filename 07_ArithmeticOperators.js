@@ -1,0 +1,15 @@
+let x, y;
+x = 10, y = 5;
+let z;
+z = x+y;
+console.log(z);
+z = x-y;
+console.log(z);
+z = x*y;
+console.log(z);
+z = x/y;
+console.log(z);
+z = x%y;
+console.log(z);
+z = x**y;
+console.log(z);
