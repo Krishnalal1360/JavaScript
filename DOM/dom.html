@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>ID and Class Example</title>
+  <style>
+    /* ID-based styling */
+    #header {
+      background-color: lightblue;
+      text-align: center;
+      padding: 10px;
+    }
+
+    #footer {
+      background-color: lightgray;
+      text-align: center;
+      padding: 10px;
+    }
+
+    /* Class-based styling */
+    .highlight {
+      color: red;
+      font-weight: bold;
+    }
+
+    .box {
+      border: 2px solid black;
+      padding: 10px;
+      margin: 5px;
+    }
+
+    .text-center {
+      text-align: center;
+    }
+  </style>
+  <link rel="stylesheet" href="dom.css">
+</head>
+<body>
+
+  <!-- Two ID-based tags -->
+  <div id="header" class="text" style="color:red;">This is the Header (ID: header)</div>
+  <div id="footer">This is the Footer (ID: footer)</div>
+
+  <!-- Three Class-based tags -->
+  <p class="highlight">This is highlighted text (class: highlight)</p>
+  <div class="box">This is inside a box (class: box)</div>
+  <h2 class="text-center">This text is centered (class: text-center)</h2>
+  <br>
+
+  <!-- Anchor Tags -->
+  <a href="home.html">Home</a>
+  <br>
+  <a href="about.html">About</a>
+  <br>
+
+  <!-- Image Tag -->
+  <img src="surya dev.jpg" alt="Surya" width="300" height="200">
+
+  <!-- Form Tag -->
+  <h2>Contact Form</h2>
+
+  <form action="" method="GET">
+    <!-- Name Field -->
+    <label for="name">Name:</label><br>
+    <input type="text" id="name" name="name" placeholder="Enter your name" required><br><br>
+
+    <!-- Email Field -->
+    <label for="email">Email:</label><br>
+    <input type="email" id="email" name="email" placeholder="Enter your email" required><br><br>
+
+    <!-- Submit Button -->
+    <input type="submit" value="Submit">
+  </form>
+
+  <div class="class-1">
+    <p class="class-2">This is first paragraph.</p>
+    <p class="class-2">This is second paragraph.</p>
+    <p class="class-2">This is third paragraph.</p>
+  </div>
+  <br>
+  <div class="class-1"></div>
+  <br>
+
+  <div class="class-3" style="color:red;">This is a paragraph.</div>
+  <div class="class-3" style="color:red;">This also a paragraph.</div>
+  <br>
+  <div class="class-4">This is another paragraph.</div>
+  <div class="class-4">This is also another paragraph.</div>
+  <br>
+  <button id="id-1">Click On Me</button>
+
+  <div class="outer">
+    <p style="color:magenta;background-color:pink;">This is div first paragraph.</p>
+    <div class="inner">
+      <p style="color:brown;background-color:blue;">This is div second paragraph.</p>
+    </div>
+  </div>
+
+  <!--Script-->
+  <script src="dom.js"></script>
+</body>
+</html>
