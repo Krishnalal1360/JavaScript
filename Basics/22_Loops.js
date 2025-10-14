@@ -52,3 +52,7 @@ console.log("Iterating array using for loop");
 for(var i=0;i<arr.length;i++){
     console.log("Index: "+i+", Value: "+arr[i]);
 }
+console.log("For Of loop");
+for(let element of arr){
+    console.log(element);
+}
