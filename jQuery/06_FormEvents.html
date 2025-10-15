@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sample Form</title>
+</head>
+<body>
+  <h2>Simple Form Example</h2>
+
+  <form id="myForm" action="#" method="post">
+    <!-- Text Input -->
+    <label for="username">Name:</label>
+    <input type="text" id="username" name="username" placeholder="Enter your name" required>
+    <br><br>
+
+    <!-- Select Dropdown -->
+    <label for="country">Country:</label>
+    <select id="country" name="country" required>
+      <option value="">-- Select Country --</option>
+      <option value="india">India</option>
+      <option value="usa">USA</option>
+      <option value="uk">UK</option>
+      <option value="canada">Canada</option>
+    </select>
+    <br><br>
+
+    <!-- Submit Button -->
+    <button type="submit">Submit</button>
+  </form>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="06_FormEvents.js"></script> 
+</body>
+</html>

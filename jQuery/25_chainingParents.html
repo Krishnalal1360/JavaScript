@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>jQuery DOM Traversing Demo</title>
+  <link rel="stylesheet" href="25_chainingParents.css">
+</head>
+<body>
+
+<h2 style="text-align:center;">jQuery Traversing & Chaining Demo</h2>
+
+<div class="grandparent" id="grandparent1">
+  Grandparent
+  <div class="parent" id="parent1">
+    Parent
+    <div class="child" id="child1">Child</div>
+  </div>
+</div>
+
+<div style="text-align:center;">
+  <button id="showParent">Show parent()</button>
+  <button id="showParents">Show parents()</button>
+  <button id="showParentsUntil">Show parentsUntil(grandparent)</button>
+  <button id="showOffsetParent">Show offsetParent()</button>
+  <button id="showClosest">Show closest('.grandparent')</button>
+  <button id="chainingExample">Chaining Example</button>
+</div>
+
+<div id="result">Results will appear here</div>
+
+<!-- jQuery -->
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+
+<script src="25_chainingParents.js"></script>
+</body>
+</html>

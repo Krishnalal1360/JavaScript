@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>jQuery Filter & Traversing Demo</title>
+  <link rel="stylesheet" href="27_Filter.css">
+</head>
+<body>
+
+<h2 style="text-align:center;">jQuery Filter & Traversing Demo</h2>
+
+<div class="container" id="container">
+  <div class="item" id="item1">Item 1</div>
+  <div class="item" id="item2">Item 2
+    <div class="item" id="item2a">Item 2a</div>
+  </div>
+  <div class="item" id="item3">Item 3</div>
+  <div class="item" id="item4">Item 4</div>
+  <div class="item" id="item5">Item 5</div>
+</div>
+
+<div style="text-align:center;">
+  <button id="firstBtn">first()</button>
+  <button id="lastBtn">last()</button>
+  <button id="eqBtn">eq(2)</button>
+  <button id="filterBtn">filter(:contains('2'))</button>
+  <button id="notBtn">not(:contains('2'))</button>
+  <button id="sliceBtn">slice(1,4)</button>
+  <button id="hasBtn">has('#item2a')</button>
+  <button id="isBtn">is(:contains('3'))</button>
+  <button id="eachBtn">each()</button>
+</div>
+
+<div id="result">Click a button to see results here</div>
+
+<!-- jQuery -->
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+
+<script src="27_Filter.js"></script>
+
+</body>
+</html>

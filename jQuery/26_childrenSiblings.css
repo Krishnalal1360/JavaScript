@@ -1,0 +1,29 @@
+
+
+    .container {
+      border: 2px solid #333;
+      padding: 20px;
+      margin: 20px auto;
+      width: 400px;
+      background-color: #f9f9f9;
+    }
+
+    .item {
+      padding: 10px;
+      margin: 5px;
+      border: 1px dashed #666;
+      background-color: lightblue;
+      cursor: pointer;
+    }
+
+    button {
+      margin: 5px;
+      padding: 6px 12px;
+      cursor: pointer;
+    }
+
+    #result {
+      margin-top: 10px;
+      font-family: monospace;
+      color: darkgreen;
+    }

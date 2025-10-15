@@ -1,0 +1,18 @@
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      margin-top: 40px;
+    }
+    .box {
+      width: 250px;
+      margin: 10px auto;
+      padding: 10px;
+      border: 2px solid #333;
+      border-radius: 8px;
+      background-color: lightyellow;
+    }
+    button {
+      margin: 5px;
+      padding: 8px 16px;
+      cursor: pointer;
+    }

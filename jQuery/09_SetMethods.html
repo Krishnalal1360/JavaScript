@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>jQuery Get/Set Example</title>
+  <link rel="stylesheet" href="09_SetMethods.css">
+</head>
+<body>
+
+  <h2 id="heading" style="color:blue;">Original Heading</h2>
+
+  <form id="demoForm">
+    <!-- Text input -->
+    <label for="username">Name:</label>
+    <input type="text" id="username" value="John Doe"><br>
+
+    <!-- Select dropdown -->
+    <label for="country">Country:</label>
+    <select id="country">
+      <option value="india">India</option>
+      <option value="usa">USA</option>
+      <option value="canada">Canada</option>
+    </select><br>
+
+    <!-- Buttons -->
+    <button type="button" id="setBtn">Set Values</button>
+    <button type="button" id="getBtn">Get Values</button>
+  </form>
+
+  <div id="output">
+    <strong>Output will appear here...</strong>
+  </div>
+
+  <!-- jQuery -->
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+          integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+          crossorigin="anonymous"></script>
+
+  <!-- Your Script -->
+  <script src="09_SetMethods.js"></script>
+</body>
+</html>

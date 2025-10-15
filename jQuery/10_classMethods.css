@@ -1,0 +1,35 @@
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      margin-top: 40px;
+    }
+
+    #box {
+      width: 200px;
+      height: 200px;
+      background-color: lightgray;
+      margin: 20px auto;
+      line-height: 200px;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+
+    /* Classes to be added/removed/toggled */
+    .red {
+      background-color: crimson;
+      color: white;
+    }
+
+    .round {
+      border-radius: 50%;
+    }
+
+    .shadow {
+      box-shadow: 0 0 20px rgba(0,0,0,0.5);
+    }
+
+    button {
+      margin: 5px;
+      padding: 8px 16px;
+      cursor: pointer;
+    }

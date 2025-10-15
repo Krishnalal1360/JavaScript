@@ -1,0 +1,36 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 40px;
+}
+
+/* Scrollable container */
+.scroll-box {
+  width: 320px;
+  height: 220px;
+  overflow: auto;  /* must have scroll */
+  border: 2px solid #444;
+  background-color: #f5f5f5;
+  margin: 20px auto;
+  box-sizing: border-box;
+}
+
+/* Inner content bigger than container */
+.content {
+  width: 1500px;   /* wider than container → horizontal scroll */
+  height: 700px;   /* taller than container → vertical scroll */
+  padding: 20px;
+  box-sizing: border-box;
+  background: linear-gradient(to bottom right, lightblue, lightgreen);
+}
+
+button {
+  margin: 8px;
+  padding: 6px 12px;
+  cursor: pointer;
+}
+
+#result {
+  text-align: center;
+  margin-top: 10px;
+  font-family: monospace;
+}

@@ -1,0 +1,22 @@
+    #myBox {
+      width: 250px;
+      height: 150px;
+      background-color: lightcoral;
+      color: white;
+      font-size: 18px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 20px auto;
+      border-radius: 8px;
+    }
+
+    .highlight {
+      border: 5px solid yellow;
+    }
+
+    button {
+      margin: 5px;
+      padding: 6px 12px;
+      cursor: pointer;
+    }

@@ -1,0 +1,33 @@
+    .grandparent {
+      border: 3px solid #444;
+      padding: 20px;
+      margin: 20px;
+    }
+
+    .parent {
+      border: 2px dashed #888;
+      padding: 20px;
+      margin: 15px;
+    }
+
+    .child {
+      border: 1px dotted #aaa;
+      padding: 15px;
+      margin: 10px;
+      background-color: lightblue;
+      cursor: pointer;
+      width: 200px;
+      text-align: center;
+    }
+
+    button {
+      margin: 5px;
+      padding: 6px 12px;
+      cursor: pointer;
+    }
+
+    #result {
+      margin-top: 15px;
+      font-family: monospace;
+      color: darkgreen;
+    }
